@@ -1,3 +1,17 @@
+#AI gets pixel inputs from the game window and makes decision based on where the ball is
+"""
+Needs to be debugged
+tested 
+Updated to save best two AI
+"""
+
+#Authors
+#@BB00GIE
+#@TreJohnson
+
+
+
+
 import gym
 import numpy as np
 
