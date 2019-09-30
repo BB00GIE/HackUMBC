@@ -148,7 +148,7 @@ def main():
         processed_observations, prev_processed_observations = observe(observation, previous, input_dimensions)
         hidden_layer_values, up_probability = Nets(processed_observations, weights)
 
-        episode_obs.append(processed_observations)
+        episode_obs = np.append(episode_obs, processed_observations)
         episode_hidden_layer_values.append(hidden_layer_values)
 
         action = Decision(up_probability)
